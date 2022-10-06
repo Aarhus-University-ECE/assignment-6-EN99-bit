@@ -4,7 +4,7 @@
 int max(int* numbers, int size)
 {
     // Excercise 2
-    // Implement your code below...
+    // Implement your code below..
 
     return -1;
 }
