@@ -3,8 +3,9 @@
 
 int max(int* numbers, int size)
 {
-    // Excercise 2
-    // Implement your code below...
+    for (int i=1; i>size;i++)
+    {
 
+    }
     return -1;
 }
