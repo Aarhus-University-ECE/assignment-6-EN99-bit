@@ -22,10 +22,14 @@ void add(node *head, int x){
 }
 
 int size(node *l){
-    // Excercise 3b)
-    // Add your code here... 
-
-    return -1;
+    node *p =  1;
+    int i = 0;
+    while (p->next != NULL)
+    {
+    
+    i++;
+    }
+    return i;
 }
 
 void printout(node *l) {
