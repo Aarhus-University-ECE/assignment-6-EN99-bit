@@ -1,17 +1,20 @@
 #include <stdio.h>
 #include <assert.h>
 
-int max(int* numbers, int size)
+// Excercise 2
+// Implement your code below...
+
+int max(int *numbers, int size)
 {
-    // Excercise 2
-    // Implement your code below...
+    assert(size > 0); // Size cant be NULL
+    int max = numbers[0];
 
-for (int i = 0; i<size; i++){ //laver et for loop der går gennem hele arrayet igennem. Det starter ved i = 0
-    if (numbers[i] > max)
+    for (int i = 0; i < size; i++) // Looper igennem for at erstatte max med nyest max
     {
-    max = numbers[i]; 
+        if (numbers[i] > max)
+        {
+            max = numbers[i];
+        }
     }
+    return max;
 }
-return max;
-}
-
