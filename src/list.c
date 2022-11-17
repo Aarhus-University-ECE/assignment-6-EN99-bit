@@ -26,7 +26,7 @@ void add(node *head, int x)
 
 int size(node *l)
 {
-  node *p = 1;
+  node *p = l;
   int i = 0;
   while (p->next != NULL)
   {
